@@ -1,0 +1,60 @@
+# Ignore build directories and output files
+/build/
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+
+# Ignore CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Ignore IDE-specific files (Visual Studio, VSCode, etc.)
+.vscode/
+.vs/
+*.suo
+*.user
+*.ncb
+*.sdf
+*.ipch
+*.opensdf
+*.tlog
+*.lastbuildstate
+*.VC.opendb
+*.VC.db
+
+# Ignore auto-generated Visual Studio files
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.pid.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git specific files
+*.orig
+*.rej
+
+# Archives and compressed files
+*.gz
+*.zip
+*.tar
+*.7z
+*.rar
+
+# Exclude sensitive files (adjust as needed)
+*.env
